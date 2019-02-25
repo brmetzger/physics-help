@@ -1,4 +1,10 @@
 #Universal Gravitation
-def universal_gravitation(mass1,mass2,radius,grav = 6.67 * (10**-11)):
-    print("G =", str(grav) + "\n")
-    return grav * ((mass1*mass2)/(radius^2))
+def universal_gravitation(mass1,mass2,distance,grav = 6.67 * (10**-11)):
+    print("M1 =", mass1)
+    print("M2 =", mass2)
+    print("r =", distance)
+    print("G =", grav)
+    print("m*m =", (mass1*mass2))
+    print("r² =", (distance**2))
+    print("mm/r²", ((mass1*mass2)/(distance**2)))
+    return grav * ((mass1*mass2)/(distance**2))
