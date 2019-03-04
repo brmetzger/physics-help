@@ -1,6 +1,6 @@
 #Calculate the circumference of a circle
 def circumference(radius):
-    return radius * 2 * 3.14
+    return radius * 6.28
 
 #Meters per second to revolutions per minute
 def mps_to_rpm(mps,radius):
